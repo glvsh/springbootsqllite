@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS`USER` (
+  `ID` int(11) NOT NULL,
+  `USER_NAME` varchar(45) NOT NULL,
+  `PASSWORD` varchar(45) NOT NULL,
+  `EMAIL` varchar(100) DEFAULT NULL,
+  `CREATED_TIME` datetime NOT NULL,
+  `UPDATED_TIME` datetime DEFAULT NULL,
+  `USER_TYPE` varchar(45) NOT NULL,
+  `DOB` date NOT NULL
+);
